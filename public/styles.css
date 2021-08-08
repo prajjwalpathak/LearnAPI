@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  align-self: center;
+  font-size: 3rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.fName {
+  display: flex;
+  align-self: center;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  width: 25rem;
+  height: 4rem;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.lName {
+  display: flex;
+  align-self: center;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  width: 25rem;
+  height: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.email {
+  display: flex;
+  align-self: center;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  width: 25rem;
+  height: 4rem;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.signUp {
+  display: flex;
+  align-self: center;
+  font-size: 1.5rem;
+  width: 25rem;
+  height: 4rem;
+  margin-top: 2rem;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 5px;
+  border-color: #0d6efd;
+  justify-content: center;
+  align-items: center;
+}
