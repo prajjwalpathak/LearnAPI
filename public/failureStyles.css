@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tryAgain {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(75, 75, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
